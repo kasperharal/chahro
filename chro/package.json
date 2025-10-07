@@ -1,0 +1,25 @@
+{
+  "name": "chro",
+  "displayName": "chahro",
+  "description": "runic chahro scripts",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "chahro",
+      "aliases": ["chahro", "chahro"],
+      "extensions": ["chro"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "chahro",
+      "scopeName": "source.chahro",
+      "path": "./syntaxes/chahro.tmLanguage.json"
+    }]
+  }
+}
